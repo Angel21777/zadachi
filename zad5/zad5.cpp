@@ -1,19 +1,36 @@
-// zad5.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// —редно на всички елементи които имат четен индекс
 //
 
 #include <iostream>
 #include <stdio.h>
+const int N = 4;
 
 int main()
 {
-    int dogFood, catFood;
-    printf("Broi opakovki hrana za kucheta = ");
-    scanf_s("%d", & dogFood);
-    printf("Broi opakovki hrana za kotki = ");
-    scanf_s("%d", &catFood);
-    float dogPrice = 2.50;
-    float catPrice = 4.00;
-    float total;
-    total = (dogFood * dogPrice) + (catFood * catPrice);
-    printf("total=%.2f lv.", total);
+	int mA[N];
+	int suma = 0;
+	int counter = 0;
+	for (int i = 0; i < N; i++)
+	{
+		scanf_s("%d", &mA[i]);
+		if (i % 2 == 0)
+		{
+			suma += mA[i];
+			counter++;
+		}
+	}
+	for (int i = 0; i < N; i++)
+	{
+		printf("%d ", mA[i]);
+	}
+	printf("\n");
+	if (counter > 0)
+	{
+		printf("sredno = %d\n", suma / counter);
+	}
+	else
+	{
+		printf("nqma 4etni indexi");
+	}
 }
+
