@@ -1,0 +1,8 @@
+﻿  domashno.cpp
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(29,20): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(29,17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(29,14): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(66,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(83,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Owner\Desktop\visual studio\funkcii\domashno\domashno.cpp(72,1): warning C4715: 'Triagalnik': not all control paths return a value
+  domashno.vcxproj -> C:\Users\Owner\Desktop\visual studio\funkcii\x64\Debug\domashno.exe
